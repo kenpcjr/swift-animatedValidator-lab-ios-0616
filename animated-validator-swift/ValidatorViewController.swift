@@ -93,7 +93,6 @@ class ValidatorViewController: UIViewController, UITextFieldDelegate {
     func animateSubmitButton() {
         
         UIView.animateWithDuration(0.5) {
-            self.submitButtonTopAnchor.active = false
             
             self.submitButtonTopAnchor.constant = 100
             
