@@ -17,11 +17,13 @@ class ValidatorViewController: QuickSpec {
     override func spec() {
         
         let tester = KIFUITestActor()
+        func test(sender: AnyObject) {
+        }
         
         let submitButton =  tester.waitForViewWithAccessibilityLabel(Constants.SUBMITBUTTON) as! UIButton
         
         describe("submit button:") {
-            
+        
             it("Should only enable button when all fields are valid") {
                 
                 
